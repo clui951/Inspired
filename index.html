@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+
+
+<head>
+  <meta charset="utf-8">
+  <title>Inspired</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Random-Inspiration Homepage">
+  <meta name="author" content="Calvin, Kelly, Woody, Daniel">
+  <link rel="Shortcut Icon" href="http://www.gamesparks.com/wp-content/uploads/2013/07/the-cloud.jpg"></link>
+<!-- CSS import -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<!-- TITLE -->
+<br>
+<body background = "files/back_color.png">
+<center><img src="files/title.png" alt="#Title Picture" width="800" height="700"></center>
+<div style="width: 100%; height: 20px; border-bottom: 8px solid #000;"></div>
+<br style="height:0pt; visibility:hidden;" />
+<center><p><FONT size="5" FACE="Trebuchet MS">because why wait for inspiration to strike you?</FONT></p></center>
+  <div class="container-fluid" >
+    <div class="row-fluid">
+      <div class="span10 offset1" >
+        <div class="hero-unit" style="padding-bottom:30px; padding-top:20px; margin-top:15px; margin-bottom:15px">
+          <center><FONT size="6" FACE="Trebuchet MS"><div id="output"></div></FONT></center>
+          <br>
+          <center><FONT size="6" FACE="Trebuchet MS"><div id="output2"></div></FONT></center>
+          <script language="JavaScript" src="script.js" type="text/javascript">
+            </script>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+    var soundcount = 0;
+
+    function play_single_sound() {
+      if(soundcount === 0){
+        soundcount = 1;
+        document.getElementById("audiotag1").play();
+      }
+      else if(soundcount === 1){
+        soundcount = 2;
+        document.getElementById("audiotag2").play(); 
+      }
+      else if(soundcount === 2){
+        soundcount = 3;
+        document.getElementById("audiotag3").play(); 
+      }
+      else if(soundcount === 3){
+        soundcount = 4;
+        document.getElementById("audiotag4").play(); 
+      }
+      else if(soundcount === 4){
+        soundcount = 5;
+        document.getElementById("audiotag5").play(); 
+      }
+      else if(soundcount === 5){
+        soundcount = 6;
+        document.getElementById("audiotag6").play(); 
+      }
+      else if(soundcount === 6){
+        soundcount = 7;
+        document.getElementById("audiotag7").play(); 
+      }
+      else if(soundcount === 7){
+        soundcount = 8;
+        document.getElementById("audiotag8").play(); 
+      }
+      else if(soundcount === 8){
+        soundcount = 9;
+        document.getElementById("audiotag9").play(); 
+      }
+      else if(soundcount === 9){
+        soundcount = 10;
+        document.getElementById("audiotag10").play(); 
+      }
+      else if(soundcount === 10){
+        soundcount = 11;
+        document.getElementById("audiotag11").play(); 
+      }
+      else{
+        soundcount = 0;
+        document.getElementById("audiotag12").play(); 
+      }
+      
+    }
+  </script>
+
+  <audio id="audiotag1" src="audio/yougogirl.wav" preload="auto"></audio>
+  <audio id="audiotag2" src="audio/newdaynewyou.wav" preload="auto"></audio>
+  <audio id="audiotag3" src="audio/noice.wav" preload="auto"></audio>
+  <audio id="audiotag4" src="audio/wowmuchinspired.wav" preload="auto"></audio>
+  <audio id="audiotag5" src="audio/youdabombdotcom.wav" preload="auto"></audio>
+  <audio id="audiotag6" src="audio/yougotswag.wav" preload="auto"></audio>
+
+  <audio id="audiotag7" src="audio/lifegoeson.wav" preload="auto"></audio>
+  <audio id="audiotag8" src="audio/maytheforcebewithyou.wav" preload="auto"></audio>
+  <audio id="audiotag9" src="audio/yourethatdiamondintherough.wav" preload="auto"></audio>
+  <audio id="audiotag10" src="audio/itllworkoutman.wav" preload="auto"></audio>
+  <audio id="audiotag11" src="audio/heyyoudaman.wav" preload="auto"></audio>
+  <audio id="audiotag12" src="audio/itcanalwaysbeworse.wav" preload="auto"></audio>
+
+
+
+    <a href="javascript:play_single_sound();"><center><span onclick="clickHandler(event);"><img src="files/generatebutton.png" width="255.5" height="77"></span></center></a>
+
+  <!-- <center><span onclick="clickHandler(event);"><img src="files/generatebutton.png" width="255.5" height="77"></span></center> -->
+ <div style="position: absolute; bottom: 30px; width: 100%; height: 8px; border-bottom: 2px solid #000;"></div>  
+  <div style="position: absolute; bottom: 5px; right: 10px"> <FONT FACE="Trebuchet MS">Shoot us a quote suggestion <a href="contact-form.html">HERE</a> </FONT></div>
+</body>
+
+
+</html>
+
+
+
+
+
+

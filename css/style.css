@@ -1,0 +1,45 @@
+.navbar .brand {
+padding-top: 15px;
+padding-left: 120px;
+padding-bottom: 15px;
+font-size: 250%;
+color: white;		/* Title on nav bar color */
+}
+
+.navbar .logo {
+padding-left: 120px;
+}
+
+.navbar .nav > li > a {
+padding-top: 15px;
+padding-bottom: 15px;
+text-align: center;
+}
+.navbar .pull-right {
+padding-top: 0px;
+padding-right: 90px;
+}
+
+.transbox{
+width:800px;
+height:1000px;
+margin:30px 50px;
+background-color:#ffffff;
+border:1px solid black;
+opacity:0.6;
+filter:alpha(opacity=60); /* For IE8 and earlier */
+}
+
+.font-ArialBlack{
+font-family: "Arial Black", Gadget, sans-serif
+}
+
+.adressbox{
+width:220px;
+padding:3px;
+border:1px solid gray;
+margin:0px;
+background-color: black; 	/*made*/
+}
+
+
